@@ -48,6 +48,8 @@ do
 		echo "Rejected: $line"
 	fi
 done << EOF
+CONFIG_LOCALVERSION="-mlnx"
+CONFIG_DEFAULT_HOSTNAME="mlnx"
 CONFIG_NET_IPIP=m
 CONFIG_NET_IPGRE_DEMUX=m
 CONFIG_NET_IPGRE=m
